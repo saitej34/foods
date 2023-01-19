@@ -2,7 +2,7 @@ import './App.css';
 import Products from './Products';
 import React,{useState} from 'react'
 function App() {
-  const [rec,setrec]=useState('');
+  const [rec,setrec]=useState('')
   const [datas,setdata] = useState([]);
   const lis = "https://api.edamam.com/search?q="+rec+"&app_id=367a804f&app_key=3eeab0c34443dc07025218242c47d96b&from=0&to=20&calories=591-722&health=alcohol-free"
   const sub = (e)=>{
